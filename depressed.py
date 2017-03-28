@@ -110,3 +110,12 @@ for idx, row in tqdm(df[['Event.Date', 'Aircraft.Damage', 'Total.Fatal.Injuries'
         alive = sum(row[cat] for cat in ['Total.Serious.Injuries', 'Total.Minor.Injuries', 'Total.Uninjured'])
         year_fatal.update({year : year_fatal.get(year) + fatal})
         year_alive.update({year : year_alive.get(year) + alive})
+
+fx, fy = zip(*sorted(year_fatal.items()))
+fatal_data = pd.Series(fy, fx)
+
+ax, ay = zip(*sorted(year_alive.items()))
+alive_data = pd.Series(ay, ax)
+
+chart = Bar(fatal_data, title="Fatal Injury Distribution", legend="top_right", ylabel='Number of Fatalities', xlabel='Year')
+show(chart)
