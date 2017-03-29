@@ -1,8 +1,13 @@
-How to:
-Using python3!
+# How to
+
+Download depressed.py
+
+
+
 pip3 install pandas, numpy, bokeh, operator, tqdm, matplotlib
 
-from terminal - >python3 depressed.py
+Using python3!
+:~$ python3 depressed.py
 
 
 # assignment 1
