@@ -6,7 +6,7 @@ Download depressed.py
 
 pip3 install pandas, numpy, bokeh, operator, tqdm, matplotlib
 
-Using python3!
+
 :~$ python3 depressed.py
 
 
