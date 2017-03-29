@@ -52,8 +52,8 @@ for row in df.itertuples():
      flight_model = row[16]
 
      minor_dict.update({ flight_model : minor_dict.get(flight_model) + minor})
-     serious_dict.update({ flight_model : serious_dict.get(flight_model) + minor})
-     fatal_dict.update({ flight_model : fatal_dict.get(flight_model) + minor})
+     serious_dict.update({ flight_model : serious_dict.get(flight_model) + serious})
+     fatal_dict.update({ flight_model : fatal_dict.get(flight_model) + fatal})
 
 # Plotting
 mx, my = zip(*sorted(minor_dict.items(), key=operator.itemgetter(1), reverse=True)[:5])
