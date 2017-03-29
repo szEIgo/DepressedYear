@@ -7,7 +7,7 @@ from terminal - >python3 depressed.py
 
 # assignment 1
 
-##1. How do the flight phases (ex. take off, cruise, landing..) contribute to fatalities?
+## 1. How do the flight phases (ex. take off, cruise, landing..) contribute to fatalities?
 ![alt tag](https://github.com/szEIgo/DepressedYear/blob/master/1snip.png)
 ### Graph
 ![alt tag](https://github.com/szEIgo/DepressedYear/blob/master/1.png)
