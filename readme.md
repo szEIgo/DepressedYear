@@ -27,3 +27,7 @@ from terminal - >python3 depressed.py
 ![alt tag](https://github.com/szEIgo/DepressedYear/blob/master/4snip.png)
 ### Graph
 ![alt tag](https://github.com/szEIgo/DepressedYear/blob/master/4.png)
+
+# assignment 5
+
+![alt tag](https://github.com/szEIgo/DepressedYear/blob/master/5snip.png)
